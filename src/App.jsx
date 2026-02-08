@@ -187,7 +187,7 @@ const soundService = {
 
   preload: () => {
       // Pre-populate the pool with essential sounds to avoid load-lag on first keypress
-      const commons = ['/typewriter-TYPE.mp3', '/typewriter-SPACE.mp3', '/ui-click.mp3'];
+      const commons = ['typewriter-TYPE.mp3', 'typewriter-SPACE.mp3', 'ui-click.mp3'];
       commons.forEach(src => {
           // Create a few instances of each common sound
           for (let i = 0; i < 5; i++) {
@@ -221,11 +221,11 @@ const soundService = {
         }
     });
   },
-  pageFlip: (soundEnabled) => soundService.play('/page-flip.mp3', soundEnabled, 'page'),
-  bookOpen: (soundEnabled) => soundService.play('/ui-click.mp3', soundEnabled, 'click'),
-  click: (soundEnabled) => soundService.play('/ui-click.mp3', soundEnabled, 'click'),
+  pageFlip: (soundEnabled) => soundService.play('page-flip.mp3', soundEnabled, 'page'),
+  bookOpen: (soundEnabled) => soundService.play('ui-click.mp3', soundEnabled, 'click'),
+  click: (soundEnabled) => soundService.play('ui-click.mp3', soundEnabled, 'click'),
   type: (soundEnabled, isSpace = false) => {
-      const src = isSpace ? '/typewriter-SPACE.mp3' : '/typewriter-TYPE.mp3';
+      const src = isSpace ? 'typewriter-SPACE.mp3' : 'typewriter-TYPE.mp3';
       soundService.play(src, soundEnabled, 'type', 0.15);
   },
 };
@@ -1124,7 +1124,7 @@ const HelpModal = ({ isOpen, onClose, soundEnabled }) => {
                 <div className="flex-1 bg-black/40 rounded-xl border border-white/5 overflow-hidden relative flex items-center justify-center group min-h-[300px]">
                     {tutorial.type === 'video' ? (
                         <video 
-                            src={`/tutorials/${tutorial.file}`} 
+                            src={`tutorials/${tutorial.file}`} 
                             autoPlay 
                             loop 
                             muted 
@@ -1133,7 +1133,7 @@ const HelpModal = ({ isOpen, onClose, soundEnabled }) => {
                         />
                     ) : tutorial.type === 'image' ? (
                         <img 
-                            src={`/tutorials/${tutorial.file}`} 
+                            src={`tutorials/${tutorial.file}`} 
                             alt={tutorial.title}
                             className="w-full h-full object-contain opacity-90"
                         />
@@ -1527,11 +1527,11 @@ const VolumeXIcon = ({ size = 24, className = "" }) => (
 );
 
 const AMBIANCE_TRACKS = [
-    { name: "Crackling Fire", file: "/ambiance/campfire-crackling-fireplace-sound-119594.mp3" },
-    { name: "City Rain", file: "/ambiance/city-ambience-9272.mp3" },
-    { name: "Gentle Rain", file: "/ambiance/relaxing-rain-444802.mp3" },
-    { name: "Brown Noise", file: "/ambiance/relaxing-smoothed-brown-noise-294838.mp3" },
-    { name: "Underwater", file: "/ambiance/underwater-white-noise-46423.mp3" },
+    { name: "Crackling Fire", file: "ambiance/campfire-crackling-fireplace-sound-119594.mp3" },
+    { name: "City Rain", file: "ambiance/city-ambience-9272.mp3" },
+    { name: "Gentle Rain", file: "ambiance/relaxing-rain-444802.mp3" },
+    { name: "Brown Noise", file: "ambiance/relaxing-smoothed-brown-noise-294838.mp3" },
+    { name: "Underwater", file: "ambiance/underwater-white-noise-46423.mp3" },
 ];
 
 const MusicIcon = ({ size = 24, className = "" }) => (
@@ -2670,7 +2670,7 @@ const BookEngine = ({ book, updateBook, onClose, onExport, onAddNote, onUpdateNo
           if (now.getHours() === 0 && now.getMinutes() === 0) {
               if (!hasChimed.current) {
                   // Use the new dedicated bell sound
-                  const bell = new Audio('/bell.mp3');
+                  const bell = new Audio('bell.mp3');
                   // Keep volume low as requested
                   bell.volume = Math.min(1, (soundEnabled ? 1 : 0) * 0.3);
                   bell.play().catch(e => console.warn(e));
