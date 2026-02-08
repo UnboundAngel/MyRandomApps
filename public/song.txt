@@ -1,0 +1,173 @@
+COPY THIS JSON BELOW:
+SongCard.tsx:238 [
+  {
+    "label": "Rapunzel",
+    "text": "All those days watching from the windows",
+    "time": 10.75
+  },
+  {
+    "label": "Rapunzel",
+    "text": "All those years outside looking in",
+    "time": 15.79
+  },
+  {
+    "label": "Rapunzel",
+    "text": "All that time never even knowing",
+    "time": 20.41
+  },
+  {
+    "label": "Rapunzel",
+    "text": "Just how blind I've been",
+    "time": 25.23
+  },
+  {
+    "label": "Rapunzel",
+    "text": "Now I'm here, blinking in the starlight",
+    "time": 30.23
+  },
+  {
+    "label": "Rapunzel",
+    "text": "Now I'm here, suddenly I see",
+    "time": 35.48
+  },
+  {
+    "label": "Rapunzel",
+    "text": "Standing here, it's all so clear",
+    "time": 40.09
+  },
+  {
+    "label": "Rapunzel",
+    "text": "I'm where I'm meant to be",
+    "time": 44.47
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And at last I see the light",
+    "time": 49.02
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And it's like the fog has lifted",
+    "time": 53.66
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And at last I see the light",
+    "time": 58.36
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And it's like the sky is new",
+    "time": 62.87
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And it's warm and real and bright",
+    "time": 67.79
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And the world has somehow shifted",
+    "time": 72.55
+  },
+  {
+    "label": "Rapunzel",
+    "text": "All at once everything looks different",
+    "time": 81.11
+  },
+  {
+    "label": "Rapunzel",
+    "text": "Now that I see you",
+    "time": 85.94
+  },
+  {
+    "label": "(Inst.)",
+    "text": "[Orchestral Bridge]",
+    "time": 91.26
+  },
+  {
+    "label": "Eugene",
+    "text": "All those days, chasing down a daydream",
+    "time": 120.92
+  },
+  {
+    "label": "Eugene",
+    "text": "All those years, living in a blur",
+    "time": 126.1
+  },
+  {
+    "label": "Eugene",
+    "text": "All that time, never truly seeing",
+    "time": 130.39
+  },
+  {
+    "label": "Eugene",
+    "text": "Things the way they were",
+    "time": 135.08
+  },
+  {
+    "label": "Eugene",
+    "text": "Now she's here, shining in the starlight",
+    "time": 139.94
+  },
+  {
+    "label": "Eugene",
+    "text": "Now she's here, suddenly I know",
+    "time": 144.92
+  },
+  {
+    "label": "Eugene",
+    "text": "If she's here, it's crystal clear",
+    "time": 149.4
+  },
+  {
+    "label": "Eugene",
+    "text": "I'm where I'm meant to go",
+    "time": 153.93
+  },
+  {
+    "label": "Both",
+    "text": "And at last I see the light",
+    "time": 158.2
+  },
+  {
+    "label": "Eugene",
+    "text": "And it's like the fog has lifted",
+    "time": 162.7
+  },
+  {
+    "label": "Both",
+    "text": "And at last I see the light",
+    "time": 167.03
+  },
+  {
+    "label": "Rapunzel",
+    "text": "And it's like the sky is new",
+    "time": 171.46
+  },
+  {
+    "label": "Both",
+    "text": "And it's warm and real and bright",
+    "time": 175.5
+  },
+  {
+    "label": "Both",
+    "text": "And the world has somehow shifted",
+    "time": 180.45
+  },
+  {
+    "label": "Both",
+    "text": "All at once everything looks different",
+    "time": 187.5
+  },
+  {
+    "label": "Both",
+    "text": "Now that I see you",
+    "time": 194.22
+  },
+  {
+    "label": "Both",
+    "text": "Now that I see you",
+    "time": 203.39
+  }
+]

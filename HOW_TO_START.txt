@@ -1,0 +1,21 @@
+FOR MY RAPUNZEL - HOW TO OPEN
+
+Hello! If you are reading this, you want to see your gift.
+
+Step 1: Install the "Engine" (Node.js)
+- Since this is a computer program, it needs an engine to run.
+- Go to: https://nodejs.org/
+- Download the "LTS" version (the green button).
+- Run the installer and just click "Next" / "Accept" until it's done.
+
+Step 2: Start the App
+- Double-click the file named "Start Allentines.cmd" in this folder.
+- A black window will pop up with some text. Let it run!
+- It might take a minute the first time.
+- Your web browser should open automatically with the gift.
+
+If it doesn't work:
+- Try restarting the computer after installing Node.js.
+- Text me!
+
+<3 Atticus
